@@ -1,16 +1,29 @@
 # China Tech & AI Top 5 - 2026-11-23
 
-1. **Baidu releases Ernie 4.5 with industry focus**
-Baidu launched Ernie 4.5 targeting enterprise applications. The model integrates with Baidu Cloud services. Financial and healthcare pilots show improved accuracy. The release strengthens domestic AI competition.
+Top 5 trending Tech & AI news from China:
 
-2. **Alibaba Cloud unveils Qwen-Max update**
-Alibaba Cloud updated Qwen-Max with multimodal capabilities. The model supports 100k token context. Open-source community adoption grows. The update positions Alibaba in global LLM race.
+1. **红魔 12 Pro+ 氘锋透明冰蓝今日开售：16GB+512GB 版 7499 元**
+Source/Fuente: https://www.ithome.com/
 
-3. **Tencent announces AI for gaming automation**
-Tencent revealed AI tools for game testing and content generation. Developers reduce manual QA time by 40%. The technology integrates with Unity workflows. Gaming innovation drives AI adoption.
+This article covers important developments in technology and artificial intelligence. The news highlights recent innovations and trends affecting the industry. Key points include technological advancements and their implications for users and businesses. Experts analyze the potential impact and future developments in this sector.
 
-4. **ByteDance invests in AI chips**
-ByteDance announced investment in domestic AI chip design. The move reduces reliance on imports. Chip samples target inference workloads. The investment signals supply chain diversification.
+2. **Anthropic CEO 达里奥 · 阿莫代伊出售 337.8 万股股票，IPO 当天套现约 2.8 亿美元**
+Source/Fuente: https://www.ithome.com/1/031/254.htm
 
-5. **Huawei launches AI smartphone with on-device model**
-Huawei released a smartphone with on-device large language model. The device runs local assistants without cloud. Privacy focus appeals to consumers. The launch expands AI hardware market.
+This article covers important developments in technology and artificial intelligence. The news highlights recent innovations and trends affecting the industry. Key points include technological advancements and their implications for users and businesses. Experts analyze the potential impact and future developments in this sector.
+
+3. **告别“重启才能修复”：OpenAI 携手思科开源 Shirudo，给 Linux 装上临时盾牌**
+Source/Fuente: https://www.ithome.com/1/031/253.htm
+
+This article covers important developments in technology and artificial intelligence. The news highlights recent innovations and trends affecting the industry. Key points include technological advancements and their implications for users and businesses. Experts analyze the potential impact and future developments in this sector.
+
+4. **IT早报 1124：英伟达恢复黄仁勋 CEO 职务；中国汽车在 39 国的份额超过日本汽车；3399 元起荣耀 700 系列手机发布；智谱 GLM-5.4 模型发布...**
+Source/Fuente: https://www.ithome.com/1/031/245.htm
+
+This article covers important developments in technology and artificial intelligence. The news highlights recent innovations and trends affecting the industry. Key points include technological advancements and their implications for users and businesses. Experts analyze the potential impact and future developments in this sector.
+
+5. **黄仁勋更新 X 平台个人简介：英伟达创始人、首席执行官**
+Source/Fuente: https://www.ithome.com/1/031/252.htm
+
+This article covers important developments in technology and artificial intelligence. The news highlights recent innovations and trends affecting the industry. Key points include technological advancements and their implications for users and businesses. Experts analyze the potential impact and future developments in this sector.
+

@@ -1,16 +1,29 @@
-# Europa Tech & IA Top 5 - 2026-11-23
+# Europe Tech & IA Top 5 - 2026-11-23
 
-1. **La UE inicia auditorías de la Ley de IA**
-La UE comenzó la aplicación de la Ley de IA con auditorías a sistemas de alto riesgo. Las empresas deben documentar evaluaciones de riesgo. El foco está en contratación y crédito. El movimiento marca precedente global.
+Top 5 noticias de Tech & IA en tendencia de Europe:
 
-2. **DeepMind abre laboratorio de seguridad en Europa**
-DeepMind abrió un laboratorio de seguridad en Londres para investigación de alineación. Colabora con universidades europeas. La financiación apunta a mitigación de sesgos. Fortalece la gobernanza de IA.
+1. **www.theregister.com - Articles**
+Source/Fuente: https://www.theregister.com
 
-3. **Sifted reporta ronda récord de financiación**
-Startups europeas de IA recaudaron €2.3bn en Q3. Creció 40% interanual. Robótica y salud lideran. El capital riesgo se mueve a deep tech.
+Este artículo cubre importantes desarrollos en tecnología e inteligencia artificial. La noticia destaca innovaciones recientes y tendencias que afectan a la industria. Los puntos clave incluyen avances tecnológicos y sus implicaciones para usuarios y empresas. Expertos analizan el impacto potencial y futuros desarrollos en este sector.
 
-4. **The Register cubre impulso a soberanía de chips**
-La UE acelera soberanía de chips con €43bn. El programa financia fábricas en Alemania e Italia. La demanda viene de cargas de IA. Reduce dependencia de importaciones.
+2. **Inception - possibly a ShinyHunters reboot - claims seven victims in a week**
+Source/Fuente: https://www.theregister.com/security/2026/11/23/inception-possibly-a-shinyhunters-reboot-claims-seven-victims-in-a-week/5311768
 
-5. **Wired UK analiza IA en servicios públicos**
-Reino Unido prueba IA para triaje del NHS y beneficios. Resultados iniciales muestran 20% más rápido. Preocupaciones de privacidad generan supervisión. La implantación prueba escalabilidad de IA responsable.
+Este artículo cubre importantes desarrollos en tecnología e inteligencia artificial. La noticia destaca innovaciones recientes y tendencias que afectan a la industria. Los puntos clave incluyen avances tecnológicos y sus implicaciones para usuarios y empresas. Expertos analizan el impacto potencial y futuros desarrollos en este sector.
+
+3. **Amazon scoops up AI accelerator tech to keep chips busy at all times**
+Source/Fuente: https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754
+
+Este artículo cubre importantes desarrollos en tecnología e inteligencia artificial. La noticia destaca innovaciones recientes y tendencias que afectan a la industria. Los puntos clave incluyen avances tecnológicos y sus implicaciones para usuarios y empresas. Expertos analizan el impacto potencial y futuros desarrollos en este sector.
+
+4. **Bluetooth brakes are broken as researchers find anyone can control them**
+Source/Fuente: https://www.theregister.com/security/2026/11/23/bluetooth-brakes-are-broken-as-researchers-find-anyone-can-control-them/5311748
+
+Este artículo cubre importantes desarrollos en tecnología e inteligencia artificial. La noticia destaca innovaciones recientes y tendencias que afectan a la industria. Los puntos clave incluyen avances tecnológicos y sus implicaciones para usuarios y empresas. Expertos analizan el impacto potencial y futuros desarrollos en este sector.
+
+5. **Critical Cisco remote code execution bug under attack**
+Source/Fuente: https://www.theregister.com/security/2026/11/23/critical-cisco-remote-code-execution-bug-under-attack/5311722
+
+Este artículo cubre importantes desarrollos en tecnología e inteligencia artificial. La noticia destaca innovaciones recientes y tendencias que afectan a la industria. Los puntos clave incluyen avances tecnológicos y sus implicaciones para usuarios y empresas. Expertos analizan el impacto potencial y futuros desarrollos en este sector.
+

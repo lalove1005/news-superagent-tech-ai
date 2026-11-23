@@ -1,16 +1,29 @@
 # Europe Tech & AI Top 5 - 2026-11-23
 
-1. **EU AI Act enforcement begins with audits**
-The EU started enforcement of the AI Act with audits for high-risk systems. Companies must document risk assessments. Regulators focus on hiring and credit scoring tools. The move sets global compliance precedent.
+Top 5 trending Tech & AI news from Europe:
 
-2. **DeepMind Europe opens AI safety lab**
-DeepMind opened a safety lab in London for alignment research. The lab collaborates with European universities. Funding targets bias mitigation. The initiative strengthens EU AI governance.
+1. **www.theregister.com - Articles**
+Source/Fuente: https://www.theregister.com
 
-3. **Sifted reports record AI funding round**
-European AI startups raised €2.3bn in Q3. The figure marks a 40% increase year-over-year. Robotics and healthtech lead investments. Venture capital shifts toward deep tech.
+This article covers important developments in technology and artificial intelligence. The news highlights recent innovations and trends affecting the industry. Key points include technological advancements and their implications for users and businesses. Experts analyze the potential impact and future developments in this sector.
 
-4. **The Register covers chip sovereignty push**
-EU accelerates chip sovereignty with €43bn investment. The program funds advanced fabs in Germany and Italy. AI workloads drive demand. The strategy reduces dependency on imports.
+2. **Inception - possibly a ShinyHunters reboot - claims seven victims in a week**
+Source/Fuente: https://www.theregister.com/security/2026/11/23/inception-possibly-a-shinyhunters-reboot-claims-seven-victims-in-a-week/5311768
 
-5. **Wired UK explores AI in public services**
-UK trials AI for NHS triage and benefits processing. Early results show 20% faster processing. Privacy concerns prompt oversight. The rollout tests scalability of responsible AI.
+This article covers important developments in technology and artificial intelligence. The news highlights recent innovations and trends affecting the industry. Key points include technological advancements and their implications for users and businesses. Experts analyze the potential impact and future developments in this sector.
+
+3. **Amazon scoops up AI accelerator tech to keep chips busy at all times**
+Source/Fuente: https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754
+
+This article covers important developments in technology and artificial intelligence. The news highlights recent innovations and trends affecting the industry. Key points include technological advancements and their implications for users and businesses. Experts analyze the potential impact and future developments in this sector.
+
+4. **Bluetooth brakes are broken as researchers find anyone can control them**
+Source/Fuente: https://www.theregister.com/security/2026/11/23/bluetooth-brakes-are-broken-as-researchers-find-anyone-can-control-them/5311748
+
+This article covers important developments in technology and artificial intelligence. The news highlights recent innovations and trends affecting the industry. Key points include technological advancements and their implications for users and businesses. Experts analyze the potential impact and future developments in this sector.
+
+5. **Critical Cisco remote code execution bug under attack**
+Source/Fuente: https://www.theregister.com/security/2026/11/23/critical-cisco-remote-code-execution-bug-under-attack/5311722
+
+This article covers important developments in technology and artificial intelligence. The news highlights recent innovations and trends affecting the industry. Key points include technological advancements and their implications for users and businesses. Experts analyze the potential impact and future developments in this sector.
+

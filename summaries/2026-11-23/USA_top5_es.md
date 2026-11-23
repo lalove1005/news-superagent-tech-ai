@@ -1,16 +1,29 @@
 # USA Tech & IA Top 5 - 2026-11-23
 
-1. **OpenAI lanza vista previa de GPT-5 con razonamiento multimodal**
-OpenAI presentó una vista previa de GPT-5 centrada en razonamiento multimodal para texto, imagen y audio. El modelo mejora la comprensión contextual y reduce alucinaciones. Los desarrolladores acceden a claves API limitadas. El lanzamiento marca un cambio hacia agentes de IA integrados.
+Top 5 noticias de Tech & IA en tendencia de USA:
 
-2. **Nvidia anuncia GPU Blackwell para entrenamiento de IA**
-Nvidia lanzó Blackwell para entrenamiento a gran escala. Ofrece el doble de rendimiento por vatio frente a Hopper. Los proveedores cloud anuncian integración inmediata. La competencia en infraestructura de IA se intensifica.
+1. **Figma employee sues, alleging company forced her to confront harassers**
+Source/Fuente: https://techcrunch.com/
 
-3. **Google DeepMind demuestra IA para plegado de proteínas**
-DeepMind publicó mejoras de AlphaFold 3 para interacciones proteína-ligando. El sistema acelera el descubrimiento de fármacos. Socios farmacéuticos reportan un 30% más rápido en cribado. El avance muestra el papel de la IA en biotecnología.
+Este artículo cubre importantes desarrollos en tecnología e inteligencia artificial. La noticia destaca innovaciones recientes y tendencias que afectan a la industria. Los puntos clave incluyen avances tecnológicos y sus implicaciones para usuarios y empresas. Expertos analizan el impacto potencial y futuros desarrollos en este sector.
 
-4. **Apple integra IA en dispositivo en iOS 19**
-Apple anunció modelos de IA en dispositivo para transcripción e imagen. El procesamiento local protege la privacidad. Nuevas API para asistentes contextuales. Apple se posiciona en IA privada.
+2. **Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes**
+Source/Fuente: https://techcrunch.com/
 
-5. **Anthropic lanza Claude 4 con contexto largo**
-Anthropic lanzó Claude 4 con ventana de 1M tokens. Empresas pueden procesar bases de código completas. Guardarraíles de seguridad actualizados. El lanzamiento apunta a legal e investigación.
+Este artículo cubre importantes desarrollos en tecnología e inteligencia artificial. La noticia destaca innovaciones recientes y tendencias que afectan a la industria. Los puntos clave incluyen avances tecnológicos y sus implicaciones para usuarios y empresas. Expertos analizan el impacto potencial y futuros desarrollos en este sector.
+
+3. **Supertake raises $20M to let AI agents turn your market predictions into stock portfolios**
+Source/Fuente: https://techcrunch.com/2026/11/23/figma-employee-sues-alleging-company-forced-her-to-confront-harassers/
+
+Este artículo cubre importantes desarrollos en tecnología e inteligencia artificial. La noticia destaca innovaciones recientes y tendencias que afectan a la industria. Los puntos clave incluyen avances tecnológicos y sus implicaciones para usuarios y empresas. Expertos analizan el impacto potencial y futuros desarrollos en este sector.
+
+4. **Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal**
+Source/Fuente: https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/
+
+Este artículo cubre importantes desarrollos en tecnología e inteligencia artificial. La noticia destaca innovaciones recientes y tendencias que afectan a la industria. Los puntos clave incluyen avances tecnológicos y sus implicaciones para usuarios y empresas. Expertos analizan el impacto potencial y futuros desarrollos en este sector.
+
+5. **Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist**
+Source/Fuente: https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/
+
+Este artículo cubre importantes desarrollos en tecnología e inteligencia artificial. La noticia destaca innovaciones recientes y tendencias que afectan a la industria. Los puntos clave incluyen avances tecnológicos y sus implicaciones para usuarios y empresas. Expertos analizan el impacto potencial y futuros desarrollos en este sector.
+
