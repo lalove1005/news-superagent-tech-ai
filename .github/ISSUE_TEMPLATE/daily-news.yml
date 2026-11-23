@@ -1,0 +1,9 @@
+name: Daily Tech AI News
+description: Daily trending Tech & AI news summary
+title: "News Digest {{ date }}"
+labels: ["news", "superagent"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: "Auto-generated daily digest for Tech & AI trends."
