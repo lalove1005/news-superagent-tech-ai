@@ -1,0 +1,12 @@
+name: Superagent Daily News
+on:
+  schedule:
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run superagent pipeline
+        run: echo "Trigger superagent run for tech-ai trending news"
