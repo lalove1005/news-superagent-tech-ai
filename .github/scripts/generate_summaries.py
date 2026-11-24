@@ -30,7 +30,7 @@ SOURCES = {
 os.makedirs(f"summaries/{date_str}", exist_ok=True)
 
 def fetch_rss(url):
-    """Fetch RSS using curl and grep for titles"""
+    """Fetch RSS using curl and extract titles, links, and descriptions"""
     try:
         result = subprocess.run(
             ['curl', '-s', '-L', '--max-time', '10', url],
@@ -40,19 +40,61 @@ def fetch_rss(url):
             return []
         
         content = result.stdout
-        # Simple extraction of titles
         import re
-        titles = re.findall(r'<title>([^<]{20,200})</title>', content)
-        links = re.findall(r'<link[^>]*>([^<]+)</link>', content)
+        import html
+        
+        # Extract items from RSS/Atom feed
+        # Find all <item> or <entry> blocks
+        item_blocks = re.findall(r'<item[^>]*>.*?</item>|<entry[^>]*>.*?</entry>', content, re.DOTALL)
         
         items = []
-        for i, title in enumerate(titles[:5]):
-            if 'rss' in title.lower() or 'feed' in title.lower():
+        for block in item_blocks[:5]:
+            # Extract title
+            title_match = re.search(r'<title[^>]*><!\[CDATA\[(.*?)\]\]>|<title[^>]*>([^<]{20,200})</title>', block, re.DOTALL)
+            if title_match:
+                title = title_match.group(1) or title_match.group(2)
+                title = html.unescape(title.strip())
+            else:
                 continue
-            link = links[i] if i < len(links) else "N/A"
-            items.append({'title': title, 'link': link})
+            
+            # Skip feed/channel titles
+            if 'rss' in title.lower() or 'feed' in title.lower() or len(title) < 20:
+                continue
+            
+            # Extract link
+            link_match = re.search(r'<link[^>]*>([^<]+)</link>|<link[^>]*href="([^"]+)"', block)
+            link = link_match.group(1) or link_match.group(2) if link_match else "N/A"
+            
+            # Extract description/summary/content
+            desc_match = re.search(
+                r'<description[^>]*><!\[CDATA\[(.*?)\]\]>|<description[^>]*>([^<]{50,1000})</description>|'
+                r'<summary[^>]*><!\[CDATA\[(.*?)\]\]>|<summary[^>]*>([^<]{50,1000})</summary>|'
+                r'<content[^>]*><!\[CDATA\[(.*?)\]\]>|<content[^>]*>([^<]{50,1000})</content>',
+                block, re.DOTALL
+            )
+            
+            description = ""
+            if desc_match:
+                # Get first non-empty group
+                for group in desc_match.groups():
+                    if group:
+                        description = html.unescape(group.strip())
+                        break
+            
+            # Clean HTML tags from description
+            description = re.sub(r'<[^>]+>', '', description)
+            description = re.sub(r'&#\d+;', ' ', description)
+            description = ' '.join(description.split())[:500]
+            
+            items.append({
+                'title': title,
+                'link': link,
+                'description': description
+            })
+        
         return items
-    except:
+    except Exception as e:
+        print(f"Error fetching {url}: {e}", file=sys.stderr)
         return []
 
 def generate_summary(region, lang, items):
@@ -68,17 +110,29 @@ def generate_summary(region, lang, items):
     for i, item in enumerate(items[:5], 1):
         content += f"{i}. **{item['title']}**\n"
         content += f"Source/Fuente: {item['link']}\n\n"
-        # Generate 150-word summary placeholder
+        
+        # Use actual description from RSS feed
+        description = item.get('description', '')
+        
         if lang == 'en':
-            content += f"This article covers important developments in technology and artificial intelligence. "
-            content += f"The news highlights recent innovations and trends affecting the industry. "
-            content += f"Key points include technological advancements and their implications for users and businesses. "
-            content += f"Experts analyze the potential impact and future developments in this sector.\n\n"
+            if description:
+                # Clean and limit to ~150 words
+                words = description.split()
+                summary = ' '.join(words[:150])
+                content += f"{summary}\n\n"
+            else:
+                content += f"This article covers important developments in technology and artificial intelligence. "
+                content += f"The news highlights recent innovations and trends affecting the industry.\n\n"
         else:
-            content += f"Este artículo cubre importantes desarrollos en tecnología e inteligencia artificial. "
-            content += f"La noticia destaca innovaciones recientes y tendencias que afectan a la industria. "
-            content += f"Los puntos clave incluyen avances tecnológicos y sus implicaciones para usuarios y empresas. "
-            content += f"Expertos analizan el impacto potencial y futuros desarrollos en este sector.\n\n"
+            if description:
+                # For Spanish, use description directly (RSS may already be in Spanish for Venezuelan sources)
+                # If description is in Chinese, it will need translation - for now use as-is
+                words = description.split()
+                summary = ' '.join(words[:150])
+                content += f"{summary}\n\n"
+            else:
+                content += f"Este artículo cubre importantes desarrollos en tecnología e inteligencia artificial. "
+                content += f"La noticia destaca innovaciones recientes y tendencias que afectan a la industria.\n\n"
     
     return content
 
