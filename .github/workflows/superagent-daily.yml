@@ -2,7 +2,7 @@ name: Superagent Daily Tech & AI News
 
 on:
   schedule:
-    - cron: '0 13 * * *'  # 09:00 America/Caracas = 13:00 UTC
+    - cron: '0 10 * * *'  # 06:00 America/Caracas = 10:00 UTC
   workflow_dispatch:
 
 permissions:
